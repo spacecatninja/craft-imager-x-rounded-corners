@@ -1,6 +1,7 @@
 # Rounded Corners Effect for Imager X
 
-A plugin for rounding image corners using Imager X. Also, an example of 
+A plugin for rounding image corners using Imager X.   
+Also, an example of 
 [how to make a custom effect for Imager X](https://imager-x.spacecat.ninja/extending.html#effects).
 
 ## Requirements
@@ -47,7 +48,9 @@ _edge case_ (such a good pun, you'll see) where the antialiasing will make the
 right edge of the image appear to be cut off. This is a common problem whenever making
 transparent images for the web, no matter what tool you use. In PhotoShop and similar, 
 the solution is to shrink the contents and leave some transparent pixels around
-the image. This plugin has a similar hack, which you can unlock by passing an object
+the image. 
+
+This plugin has a similar hack, which you can unlock by passing an object
 as a parameter (you need Imager X 3.1.5 or newer), and setting `fixEdge` to `true`, 
 like this:
 
@@ -63,4 +66,4 @@ Price, license and support
 ---
 The plugin is released under the MIT license. It requires Imager X, which is a commercial 
 plugin [available in the Craft plugin store](https://plugins.craftcms.com/imager-x). If you 
-need help, or found a bug, please post  
+need help, or found a bug, please post an issue in this repo, or in Imager X' repo. 

@@ -1,0 +1,43 @@
+{
+    "name": "spacecatninja/imager-x-rounded-corners",
+    "description": "Rounded Corners Effect for Imager X",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "imager-x",
+        "effect",
+        "rounded",
+        "corners"
+    ],
+    "support": {
+        "docs": "https://github.com/spacecatninja/craft-imager-x-rounded-corners/blob/master/README.md",
+        "issues": "https://github.com/spacecatninja/craft-imager-x-rounded-corners/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Elvan",
+            "homepage": "https://www.vaersaagod.no/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "spacecatninja\\imagerxroundedcorners\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Imager X Rounded Corners Effect",
+        "handle": "imager-x-rounded-corners",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/spacecatninja/craft-imager-x-rounded-corners/master/CHANGELOG.md",
+        "class": "spacecatninja\\imagerxroundedcorners\\ImagerXRoundedCorners"
+    }
+}

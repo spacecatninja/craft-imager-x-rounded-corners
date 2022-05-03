@@ -3,15 +3,12 @@
  * Rounded corners effect for Imager X
  *
  * @link      https://www.spacecat.ninja/
- * @copyright Copyright (c) 2020 André Elvan
+ * @copyright Copyright (c) 2022 André Elvan
  */
 
 namespace spacecatninja\imagerxroundedcorners;
 
-use Craft;
 use craft\base\Plugin;
-use craft\services\Plugins;
-use craft\events\PluginEvent;
 
 use spacecatninja\imagerxroundedcorners\effects\RoundedCornersEffect;
 use yii\base\Event;
@@ -24,7 +21,7 @@ use yii\base\Event;
  */
 class ImagerXRoundedCorners extends Plugin
 {
-    public function init()
+    public function init(): void
     {
         parent::init();
 

@@ -6,8 +6,7 @@ Also, an example of
 
 ## Requirements
 
-This plugin requires Craft CMS 3.3.0 or later, Imagick image driver, and Imager X 3.0 
-or later (or, 3.1.5 if you want to take advange of the object parameter syntax).
+This plugin requires Craft CMS 4.0.0 or later, Imagick image driver, and Imager X 4.0 or later.
  
 _Please note, this plugin will not work if you're on a version of Imagick 3.4.4 
 that is compiled with ImageMagick 6.x. You can use Imagick 3.4.4 compiled with
@@ -51,8 +50,7 @@ the solution is to shrink the contents and leave some transparent pixels around
 the image. 
 
 This plugin has a similar hack, which you can unlock by passing an object
-as a parameter (you need Imager X 3.1.5 or newer), and setting `fixEdge` to `true`, 
-like this:
+as a parameter, and setting `fixEdge` to `true`, like this:
 
 ```
 {% set transformed = craft.imager.transformImage(image2, { width: 600, ratio: 1, effects: { roundedcorners: { radius: 300, fixEdge: true } } }) %}

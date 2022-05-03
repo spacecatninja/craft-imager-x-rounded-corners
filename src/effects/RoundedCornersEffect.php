@@ -3,7 +3,7 @@
  * Rounded corners effect for Imager X
  *
  * @link      https://www.spacecat.ninja/
- * @copyright Copyright (c) 2020 André Elvan
+ * @copyright Copyright (c) 2022 André Elvan
  */
 
 namespace spacecatninja\imagerxroundedcorners\effects;
@@ -20,10 +20,10 @@ class RoundedCornersEffect implements ImagerEffectsInterface
 {
 
     /**
-     * @param GdImage|ImagickImage        $imageInstance
+     * @param GdImage|ImagickImage             $imageInstance
      * @param array|string|int|float|bool|null $params
      */
-    public static function apply($imageInstance, $params)
+    public static function apply(ImagickImage|GdImage $imageInstance, $params): void
     {
         if (ArrayHelper::isAssociative($params)) {
             $radius = $params['radius'] ?? 0;

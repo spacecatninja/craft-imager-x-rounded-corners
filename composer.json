@@ -2,7 +2,7 @@
     "name": "spacecatninja/imager-x-rounded-corners",
     "description": "Rounded Corners Effect for Imager X",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "keywords": [
         "craft",
         "cms",
@@ -25,7 +25,8 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^3.3.0"
+        "php": "^8.0",        
+        "craftcms/cms": "^4.0.0-beta"
     },
     "autoload": {
         "psr-4": {
@@ -35,6 +36,7 @@
     "extra": {
         "name": "Imager X Rounded Corners Effect",
         "handle": "imager-x-rounded-corners",
+        "schemaVersion": "2.0.0",
         "hasCpSettings": false,
         "hasCpSection": false,
         "changelogUrl": "https://raw.githubusercontent.com/spacecatninja/craft-imager-x-rounded-corners/master/CHANGELOG.md",

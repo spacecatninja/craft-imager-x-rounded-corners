@@ -6,7 +6,7 @@ Also, an example of
 
 ## Requirements
 
-This plugin requires Craft CMS 4.0.0 or later, Imagick image driver, and Imager X 4.0 or later.
+This plugin requires Craft CMS 4.0+/5.0+, Imagick image driver, and Imager X 4.0/5.0+r.
  
 _Please note, this plugin will not work if you're on a version of Imagick 3.4.4 
 that is compiled with ImageMagick 6.x. You can use Imagick 3.4.4 compiled with
